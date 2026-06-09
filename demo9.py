@@ -20,7 +20,13 @@ class Employee:
 emp1=Employee("brijith","bk@gmail.com","developer")
 loop=True
 while loop:
+    print("1.Display Attribute")
+    print("2.Add/Update Attribute")
+    print("3.check Attribute")
+    print("4.Delete Attribute")
+    print("5.Exit")
     user_choice=int(input("Enter a number between 1 to 4 \n"))
+
     match (user_choice):
         case 1:
             print("displaying the entire object :")
