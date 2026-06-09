@@ -6,7 +6,7 @@ class Student:
             return f"{self.Name} has age {self.Age}"
         def updateAge(self,new_age):
              self.age=new_age
-
+       
 s1 = Student("Brijith", 22)
 s2 = Student("Rahul", 21)
 s3 = Student("Anu", 20)

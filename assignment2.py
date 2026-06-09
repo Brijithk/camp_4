@@ -5,7 +5,7 @@ class Box:
         self.depth=depth
     def get_volume(self):
         volume=self.width*self.height*self.depth
-        return f"The````````````````` volume is {volume}"
+        return f"The volume is {volume}"
     
 box_1=Box(1,2,3)
 box_2=Box(10,20,30)
